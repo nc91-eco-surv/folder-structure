@@ -4,7 +4,7 @@
 Another way to manage folder structure. This is boilerplate.
 
 
-Eachother module would be in the root directory. For example
+Eachother module would be in the root directory of the Modules folder. For example
 
 - Modules\Leads...
 

@@ -13,4 +13,4 @@ $router
             'as'    => 'lead.store'
         ]);
 
-    })
+    });
