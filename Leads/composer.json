@@ -1,0 +1,22 @@
+{
+    "name": "ecosurv/leads",
+    "description": "The example structure of the module",
+    "type": "asgard-module",
+    "extra": {
+        "installer-name": "Leads",
+        "laravel": {
+            "Providers": [
+                "Modules\\Leads\\Providers\\LeadsServiceProvider",
+                "Modules\\Leads\\Providers\\LeadsRouteServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "composer/installers": "v1.10.0"
+    }
+}
