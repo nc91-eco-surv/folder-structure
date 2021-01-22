@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Leads\Data\Entities;
+namespace Modules\Leads\Database\Entities;
 
 class Lead extends Model {
 

@@ -7,7 +7,7 @@ use Modules\Leads\Data\Repository\LeadRepository;
 use Modules\Leads\Data\Transformers\LeadTransformer;
 use Modules\Leads\Http\Requests\LeadRequest;
 
-final class LeadStore extends Controller{
+final class LeadStore extends Controller {
 
     /**
      * @var \Modules\Leads\Data\Repository\LeadRepository
