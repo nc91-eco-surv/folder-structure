@@ -7,8 +7,7 @@ $router
     ->middleware('auth')
     ->group(function($router) {
 
-
-        $router->get('/', [
+        $router->post('/', [
             'uses'  => LeadStore::class,
             'as'    => 'lead.store'
         ]);
